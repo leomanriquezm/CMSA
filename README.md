@@ -29,19 +29,3 @@ Example call: ./cmsa -i graph1.txt -nruns 1 -t 600 -cpl_t 15 -drate 0.5 -nsols 1
 
 In case of doubts or questions, you might consider contacting Christian Blum at christian.blum@iiia.csic.es 
 
-
-#buscar tiempos declarados, o sino definir. No calibrable.
-
-# name                       "switch "          type   domain
-t                            "-t "              i      (5,15) 
-cpl_t                        "-cpl_t "          i      (1,5)
-drate                        "-drate "          r      (0.5,0.99) #
-nsols                        "-nsols "          i      (1,10)
-max_age                      "-max_age "        i      (1,10)
-lsize                        "-lsize "          i      (1,10)
-warm_start                   "-warm_start "     c      (0,1)
-h_emph                       "-h_emph "         c      (0,1)
-cpl_abort                    "-cpl_abort "      c      (0,1)
-elite_ratio                  "-elite_ratio "    r      (0.1,0.9)
-elite_min_freq               "-elite_min_freq " i      (3,5)
-fix_elite_in_construct       "-fix_elite "      c      (0,1)
