@@ -3,6 +3,8 @@
 ----
 El archivo de extensión .xlsx tiene los resultados con los que se construyeron las tablas.
 ----
+El siguiente README corresponde a las instrucciones originales proporcionadas por el creador del código.
+----
 
 
 This C++ software package contains an implementation of the Construct, Merge, Solve and Adapt (CMSA) metaheuristic for solving a classical combinatorial optimization problem in graph theory: the maximum independent set problem.
